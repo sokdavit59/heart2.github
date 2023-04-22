@@ -23,30 +23,73 @@
     <h1 class="A1">Tena</h1>
 <body>
     
-    <h2 style="color: white;">Ma Gril</h2>
-    <audio controls>
-        <source src="Tena - Ma Girl Remix Feat, Sistar19 [Official Audio] +Lyrics Sistar19 Cover.ogg" type="audio/ogg">
-        <source src="Tena - Ma Girl Remix Feat, Sistar19 [Official Audio] +Lyrics Sistar19 Cover.mp3" type="audio/mp3">
-    </audio><br>
-    <h2 style="color: white;">Phlov</h2>
-    <audio controls>
-        <source src="Tena - Phlov-Lane (ផ្លូវ)  [Official Audio] +Lyrics.ogg" type="audio/ogg">
-        <source src="Tena - Phlov-Lane (ផ្លូវ)  [Official Audio] +Lyrics.mp3" type="audio/mp3">
-    </audio><br>
-    <h2 style="color: white;">Swinger</h2>
-    <audio controls>
-        <source src="Tena - Swinger [Official Audio] +Lyrics.ogg" type="audio/ogg">
-        <source src="Tena - Swinger [Official Audio] +Lyrics.mp3" type="audio/mp3">
-    </audio><br>
-    <h2 style="color: white;">និយាយមិនពូកែ</h2>
-    <audio controls>
-        <source src="Tena - និយាយមិនពូកែ Cover.ogg" type="audio/ogg">
-        <source src="Tena - និយាយមិនពូកែ Cover.mp3" type="audio/mp3">
-    </audio><br>
-    <h2 style="color: white;">រាហ៊ូចាប់ចន្ទ</h2>
-    <audio controls>
-        <source src="Tena - រាហ៊ូចាប់ច័ន្ទ (Reahoo Chab Chan) [Official MV].ogg" type="audio/ogg">
-        <source src="Tena - រាហ៊ូចាប់ច័ន្ទ (Reahoo Chab Chan) [Official MV].mp3" type="audio/mp3">
-    </audio><br>
+       <div class="container">
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide"><img src="tena.jpg"><br>  <h2 style="color: white;">Ma Gril</h2>
+              <audio controls>
+               <source src="Tena - Ma Girl Remix Feat, Sistar19 [Official Audio] +Lyrics Sistar19 Cover.ogg" type="audio/ogg">
+                  <source src="Tena - Ma Girl Remix Feat, Sistar19 [Official Audio] +Lyrics Sistar19 Cover.mp3" type="audio/mp3">
+            
+                </audio></div>
+            <div class="swiper-slide"><img src="tena.jpg"><br>  <h2 style="color: white;">Phlov</h2>
+                <audio controls>
+                 <source src="Tena - Phlov-Lane (ផ្លូវ)  [Official Audio] +Lyrics.ogg" type="audio/ogg">
+                    <source src="Tena - Phlov-Lane (ផ្លូវ)  [Official Audio] +Lyrics.mp3" type="audio/mp3">
+              
+                  </audio></div>
+            <div class="swiper-slide"><img src="tena.jpg"><br>  <h2 style="color: white;">Swinger</h2>
+                <audio controls>
+                 <source src="Tena - Swinger [Official Audio] +Lyrics.ogg" type="audio/ogg">
+                    <source src="Tena - Swinger [Official Audio] +Lyrics.mp3" type="audio/mp3">
+              
+                  </audio></div>
+            <div class="swiper-slide"><img src="tena.jpg"><br>  <h2 style="color: white;">និយាយមិនពូកែ</h2>
+                <audio controls>
+                 <source src="Tena - និយាយមិនពូកែ Cover.ogg" type="audio/ogg">
+                    <source src="Tena - និយាយមិនពូកែ Cover.mp3" type="audio/mp3">
+              
+                  </audio></div>
+                  <div class="swiper-slide"><img src="tena.jpg"><br>  <h2 style="color: white;">រាហ៊ូចាប់ចន្ទ</h2>
+                    <audio controls>
+                     <source src="Tena - រាហ៊ូចាប់ច័ន្ទ (Reahoo Chab Chan) [Official MV].ogg" type="audio/ogg">
+                        <source src="Tena - រាហ៊ូចាប់ច័ន្ទ (Reahoo Chab Chan) [Official MV].mp3" type="audio/mp3">
+                  
+                      </audio></div>
+            ...
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+        
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+     
+      const swiper = new Swiper('.swiper', {
+  
+  
+    
+      
+    loop: true,
+  
+    
+    pagination: {
+      el: '.swiper-pagination',
+      
+    },
+  
+  
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  });
+    </script>
 </body>
 </html>
